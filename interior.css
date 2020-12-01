@@ -1,0 +1,357 @@
+body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+
+hr {
+    /* border: 5px solid black; */
+    color: #9A9A9A;
+    width: 80%;
+    margin: 2%
+    /* margin-top: 50px;
+    margin-bottom: 150px; */
+
+}
+.title {
+    /* border: 2px solid black; */
+    /* height: 50px; */
+    font-size: 2vw;
+    font-weight: bold;
+    width: 30%;
+
+}
+li {
+    padding-left: 10px;
+    color: gray;
+    /* margin-right: 200px; */
+}
+
+
+nav {
+    display: flex; 
+    justify-content: space-between;
+    font-size: 1vw;
+    width: 100%;
+}
+
+.navigation {
+    width: 70%;
+    
+}
+
+.navbar {
+    box-sizing: border-box;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    /* font-size: 20px; */
+    font-weight: normal;
+    list-style-type: none;
+    display: flex;   
+    margin-right: 20%; 
+    color: gray;
+    /* padding: 9px; */
+    /* display: inline-block; */
+  /* justify-content: space-around; */
+}
+
+a {
+    text-decoration: none;
+    color: #9C9C9C;
+  /* justify-content: space-around; */
+}
+
+header {
+    /* display: -webkit-flex;
+    display: -o-flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    /* margin: 0 auto;   */
+}
+
+.image1 {
+    /* border: 2px solid black; */
+    background-image: url("interiorimg/group.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: darkkhaki; */
+    height: 40vh;
+    width: 100%;
+}
+
+.spacer {
+    /* border: 2px solid black; */
+    height: 200px;
+
+}
+
+.image2 {
+    /* border: 2px solid black; */
+    background-color: #FFFFFF;
+    height: 450px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    margin-top: 300px;
+}
+
+.moreinfo1 {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    height: 50px;
+    width: 150px;
+}
+.moreinfo2 {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    height: 50px;
+    width: 150px;
+
+}
+.moreinfo3 {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    height: 50px;
+    width: 150px;
+
+}
+
+.i1 {
+    /* border: 2px solid black; */
+    background-image: url("interiorimg/DSC69161.jpg");
+    background-image: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 30%;
+    margin-right: auto;
+}
+
+.i2 {
+    /* border: 2px solid black; */
+    background-image: url("interiorimg/DSC69521.jpg");
+    background-image: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 30%;
+    margin-left:auto;
+    margin-right: auto;  
+}
+
+.i3 {
+    /* border: 2px solid black; */
+    background-image: url("interiorimg/DSC6954.jpg");
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    height: 100%;
+    width: 30%;
+}
+
+.wrapper { 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.igtitle {
+    /* border: 2px solid black; */
+    height: 100px;
+    text-align: center;
+    font-size: 30px; 
+    font-weight: bold;
+    /* padding-top: 50px; */
+}
+
+.igimg {
+    display: flex;
+    /* justify-content: space-between;  */
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    /* background-color: burlywood; */
+    height: 800px;
+    width: 80%;
+    /* margin: 0 auto; */
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+.big {
+    /* margin-left: 5%;s */
+    /* border: 2px solid black; */
+    background-image: url("interiorimg/fmx_interior_design_co_xiamen_china_kitchen_bath_bedroom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 40px;   
+    height: 100%;
+    /* margin-left: 50px; */
+    /* margin-right: auto; */
+    /* position: absolute; */
+}  
+
+.small {
+    /* border: 2px solid black; */
+    /* position: absolute;
+    margin-left: 610px; */
+    /* min-height: 400px;
+    min-width: 525px; */
+    /* display: inline; */
+    width: 50%; 
+    margin: 40px 40px 40px 0px;   
+    /* height: 500px; */
+}
+
+.row {
+    display: flex;
+    margin-bottom: 40px;
+    
+    /* width: 100%; */
+    /* height: 350px; */
+    /* padding: 20px; */
+    /* justify-content: space-around; */
+    /* background-color: red; */
+}
+
+.row div {
+    margin: 0px 40px 0px 0px;
+    /* padding: 10px;s */
+}
+
+
+ .small1 {
+    /* border: 2px solid black; */
+    background-image: url("interiorimg/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: green; */
+    /* margin-left:50px; */
+    height: 380px;
+    width: 100%;
+    
+}  
+
+ .small2 {
+    /* border: 2px solid black; */
+    background-image: url("interiorimg/2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: hotpink; */
+    height: 380px;
+    width: 100%;
+    /* width: 40%;
+    margin-left: auto; */
+    /* margin-right: 0px; */
+} 
+
+ .small3 {
+    /* border: 2px solid black; */
+    background-image: url("interiorimg/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: indigo; */
+    /* margin-top: 30px; */
+    height: 380px;
+    width: 100%;
+    /* width: 40%;
+    margin-left: 50px; */
+} 
+
+.small4 {
+    /* border: 2px solid black; */
+    background-image: url("interiorimg/4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+    /* margin-left: auto; */
+    /* margin-top: 30px; */
+    height: 380px;
+    width: 100%;
+} 
+
+
+.footer {
+    /* border: 2px solid black; */
+    background-image: url("interiorimg/Social.jpg");
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    /* background-color: grey; */
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+         /* font-size: 18px; */
+        /* width: 20%;
+        height: 0px;  */
+        /* background-color: red; */
+
+    }
+
+    .igimg {
+        width: 100%;
+    }
+
+    .big  {
+        height: 30%;
+    }
+    
+    .small {
+    }
+
+    .small1, .small2, .small3, .small4 {
+        width: 200px;
+        height: 100px;
+    }
+
+    .wrapper {
+        margin-bottom: 100px;
+        /* padding-top: 50px; */
+    }
+    .text {
+        font-size: 10px;
+    }
+/* 
+    .footer {
+        padding-bottom: 10px;
+    } */
+    /* nav {
+        width: 80%;
+        height: 0px;
+    }
+
+    .navbar {
+        font-size: 12px;
+        margin-top: 4px;
+    } */
+
+    /* header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+}

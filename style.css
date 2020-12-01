@@ -1,0 +1,225 @@
+/* * {
+    box-sizing: border-box;
+    color: blue;
+    border: aqua;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background-image: url("images/body.png"), ("images/background.png");
+    
+} 
+/* .img {
+    height: 50%;
+    background-repeat: no-repeat;
+    background-image: cover;
+} */
+
+header {
+    height: 800px;
+    background-image: url("images/hero.png");
+    background-size: cover;
+    font-weight: bold;
+    width: 100%;
+    margin: 100px;
+}
+
+.nav-search-bar {
+    border:2px solid black;
+    float: right;
+    margin-right: 50px;
+    width: 50px;
+    height: 20px;
+    margin-top: 20px;
+    /* display: flex;
+    flex-direction: row
+    align-items: ; */
+
+}
+.logo {
+    border: 2px solid black;
+    width: 55px;
+    height: 55px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* background-image: url("images/header.png"); */
+}
+
+.tab {
+
+    background-image: url("images/header.png") ;
+    width: 30px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+.titletext {
+    border:2px solid #F2F9F9;;
+    background-color: #F2F9F9;
+    font-family: 'DPSDbeyond', arial;
+    font-weight: normal;
+    width: 250px;
+    height: 200px;
+    margin-top: 200px;
+    font-size: 50px;
+    margin: 50px;
+}   
+    
+
+.first-img {
+    border:2px solid white;
+    background-image: url("images/crown-house.png");
+    background-size: cover;
+    width: 330px;
+    height: 432px; 
+    margin-left: 50px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.second-img {
+    border:2px solid white;
+    background-image: url("images/luxembourg-apartment.png");
+    background-size: cover;
+    font-weight: bold;
+    width: 682px; 
+    height: 930px;
+    float: right;    
+    margin-right: 100px;
+}
+
+/* 
+.imgtxt {
+    margin-top: 500px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    width: 300px; 
+    height: 228px;
+    position: absolute;
+}
+
+.imgtxt2 {
+    border:2px solid black;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 500px;
+    width: 375px;
+    height: 228px;
+    float: right;
+} */
+
+.third-img {
+    border:2px solid black;
+    background-color: cornsilk;
+    background-image: url("images/villa-extramorus.png");
+    width: 642px;
+    height: 381px;
+    margin-left: 630px;
+    margin-right: 200px;
+    font-weight: bold;
+    position: relative;
+}
+
+.fourth-img {
+    background-color: white;
+    background-image: url("images/science-faculty-coimbra.png");
+    width: 290px;
+    height: 593px;
+    margin-left: 78px;
+    
+}
+
+.imgtxt3 {
+    border:2px solid black;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 473px;
+    font-family:'DPSDbeyond', arial;
+    font-size: 28px;
+}
+
+
+.fifth-img {
+    border:2px solid black;
+    background-color: palevioletred;
+    width: 290px;
+    height: 493px;
+}
+
+.news-button {
+    border:2px solid black;
+    background-color: powderblue;
+}
+
+.news-view-section1 {
+    border: 2px solid white;
+    background-image: url("images/news.png");
+    width: 291px;
+    height: 389px;
+    font-weight: bold;
+    margin-right: 880px;
+    margin-top: 220px;
+    justify-content: flex-start;
+    
+}
+
+.news-view-section2 {
+    border:2px solid black;
+    background-color: white;
+    background-image: url("images/urban-angles.png");
+    color: whitesmoke;
+    font-weight: bold;
+    width: 291px;
+    height: 575px;
+    margin-right: 875px;
+    margin-top: 0px;
+
+}
+
+.view-button {
+    border:2px solid black;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.contact {
+    border:2px solid black;
+    background-image: url("images/contact.png");
+    font-weight: bold;
+    width: 300px;
+    height: 300px;
+    margin-left: 340px; 
+    float: left;
+}
+
+.contact2 {
+    border:2px solid black;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.about {
+    border:2px solid black;
+    background-color: papayawhip;
+    font-weight: bold;
+}
+
+.about2 {
+    border:2px solid black;
+    background-color: papayawhip;
+    font-weight: bold;
+}
+
+.squares {
+    border:2px solid black;
+}
+
+p {
+   
